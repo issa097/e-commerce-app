@@ -1,0 +1,27 @@
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.page{
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.active{
+    background-color: rgb(165,162,162);
+}
+
+.page.previos ,
+.page.next{
+    width: max-content;
+    padding: 15px;
+}

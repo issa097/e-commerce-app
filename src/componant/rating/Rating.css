@@ -1,0 +1,18 @@
+.rating-wrapper{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+    
+}
+
+.rating{
+    background-color: var(--success-color);
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: var(--white-color);
+}
+.review{
+color: var(--info-color);
+padding: 5px 10px;
+}

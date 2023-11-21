@@ -1,0 +1,36 @@
+.brand-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+    
+}
+
+.brand{
+   width: 22%;
+   height: 110px;
+   border-radius: 50px;
+   background-color: var(--white-color);
+ overflow: hidden;
+   display: flex;
+
+   align-items: center;
+}
+.brand img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+@media (max-width:920px) {
+
+    .brand-wrapper{
+    justify-content: space-around;
+        gap: 10px;
+
+    }
+    .brand{
+   width: 45%;
+gap: 10px;
+}
+}
